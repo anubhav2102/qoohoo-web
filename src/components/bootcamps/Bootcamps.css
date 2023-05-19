@@ -1,0 +1,30 @@
+.description{
+    background: #FFD7B1;
+}
+
+.button_join{
+    background: #161E3C;
+    color: white;
+    border-radius: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.c1{
+    background: #FB9B43;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.c2,.c3{
+    background: #FFD7B1;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

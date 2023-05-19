@@ -1,0 +1,23 @@
+.background{
+    height: 50vh;
+    background-color: #161E3C;
+}
+.empty_div{
+    padding-top: 10px;
+    background: #C1CFFF;
+    border-radius: 100%;
+}
+
+.img_div{
+    background: #FB9B43;
+    padding: auto;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+.button_view{
+    background: #FB9B43;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
