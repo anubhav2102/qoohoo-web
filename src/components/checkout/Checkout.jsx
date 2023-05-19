@@ -6,30 +6,32 @@ import "./Checkout.css";
 
 const Checkout = () => {
   return (
-    <div style={{background: "#C1CFFF"}} className="checkout">
+    <div style={{ background: "#C1CFFF" }} className="checkout">
       <div className="frame_gap">
-        <h1><b>Checkout my courses</b></h1>
+        <h1>
+          <b>Checkout my courses</b>
+        </h1>
       </div>
-      <div className="row px-5">
-        <div className="card box1 col-4" >
-          <img className="card-img-top frame_gap" width="10%" src={IMG1} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title"><b>Toledo</b></h5>
-            <button className="button_join"><b>Join Now →</b></button>
+      <div className="row card_boxes">
+        <div class="card box1 col-md-4 col-sm-12 mx-4" style={{width: "18rem"}}>
+          <img class="card-img-top card_image " src={IMG1} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title"><b>Toledo</b></h5>
+            <button className="button_join_checkout"><b>Join Now →</b></button>
           </div>
         </div>
-        <div className="card box2 col-4 " >
-          <img className="card-img-top frame_gap" src={IMG2} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title"><b>Pembroke Pines</b></h5>
-            <button className="button_join"><b>Join Now →</b></button>
+        <div class="card box2 col-md-4 col-sm-12 mx-4" style={{width: "18rem"}}>
+          <img class="card-img-top card_image" src={IMG2} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title"><b>Pembroke Pines</b></h5>
+            <button className="button_join_checkout"><b>Join Now →</b></button>
           </div>
         </div>
-        <div className="card box3 col-4 " >
-          <img className="card-img-top frame_gap" src={IMG3} alt="Card image cap" />
-          <div className="card-body">
-            <h5 className="card-title"><b>Naperville</b></h5>
-            <button className="button_join"><b>Join Now →</b></button>
+        <div class="card box3 col-md-4 col-sm-12 mx-4" style={{width: "18rem"}}>
+          <img class="card-img-top card_image " src={IMG3} alt="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title"><b>Naperville</b></h5>
+            <button className="button_join_checkout"><b>Join Now →</b></button>
           </div>
         </div>
       </div>

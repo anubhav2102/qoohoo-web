@@ -3,7 +3,7 @@
     background-color: #161E3C;
 }
 .background_header{
-    height: 90vh;
+    height: 80vh;
     background-color: #161E3C;
 }
 
@@ -23,6 +23,7 @@
     text-align: center;
     width: 80px;
     height: 80px;
+    margin-left: 20%;
 }
 
 .button_view{
@@ -38,12 +39,12 @@
     .header{
         margin-left: 125px;
         margin-right: 125px;
-        padding-top: 80px;
+        padding-top: 30px;
     }
 }
 @media only screen and (min-width: 992px) {
     .header{
-        margin-left: 255px;
+        margin-left: 475px;
         margin-right: 255px;
         padding-top: 80px;
     }

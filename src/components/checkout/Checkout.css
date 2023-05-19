@@ -3,8 +3,28 @@
 }
 .box1,.box2,.box3{
     background: #FFD7B1;
+    border-radius: 8px;
 }
 
 .frame_gap{
+    text-align: center;
+}
+
+.button_join_checkout{
+    background: #161E3C;
+    color: white;
+    border-radius: 7px;
+    padding-left: 75px;
+    padding-right: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.card_boxes{
+    margin-left: 28rem;
+    margin-top: 7rem;
+}
+.card_image{
+    margin-top: 15px;
     text-align: center;
 }

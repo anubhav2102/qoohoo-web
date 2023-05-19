@@ -44,19 +44,19 @@ const Navbar = () => {
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item mx-2">
-              <a className="nav-link">Programs</a>
+              <a className="nav-link"><b>Programs</b></a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link">Retreats</a>
+              <a className="nav-link"><b>Retreats</b></a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link">Blogs</a>
+              <a className="nav-link"><b>Blogs</b></a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link">Contact us</a>
+              <a className="nav-link"><b>Contact us</b></a>
             </li>
             <li className="nav-item mx-2 px-2 login_div">
-              <a className="nav-link">Login</a>
+              <a className="nav-link"><b>Login</b></a>
             </li>
           </ul>
         </div>

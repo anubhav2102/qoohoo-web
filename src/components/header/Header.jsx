@@ -10,7 +10,7 @@ const Header = () => {
         <div className="row">
           <div className="col-md-6 col-sm-12 ">
             <img width="auto" src={IMG1} alt="" />
-            <div className="row" style={{ marginTop:'25px'}}>
+            <div className="row" style={{ marginTop:'25px',marginLeft: "80px"}}>
               <div className="col-5"></div>
               <div className="col-1">
                 <div className='empty_div'></div>
@@ -46,19 +46,19 @@ const Header = () => {
           <div className="img_div py-4" >
             <img src={IMG2} alt="" />
           </div>
-          <div style={{ color: "#FFFFFF",marginTop: "15px",fontSize: "20px" }}><b>500+ happy customers</b></div>
+          <div style={{ color: "#FFFFFF",marginTop: "15px",fontSize: "30px" }}><>500+ happy customers</></div>
         </div>
         <div className="col-md-4 col-sm-12">
           <div className="img_div py-4">
             <img src={IMG2} alt="" />
           </div>
-          <div style={{ color: "#FFFFFF",marginTop: "15px" ,fontSize: "20px"}}><b>Learn as you go</b></div>
+          <div style={{ color: "#FFFFFF",marginTop: "15px" ,fontSize: "30px"}}><>Learn as you go</></div>
         </div>
         <div className="col-md-4 col-sm-12">
           <div className="img_div py-4">
             <img src={IMG2} alt="" />
           </div>
-          <div style={{ color: "#FFFFFF", marginTop: "15px",fontSize: "20px" }}><b>Self-paced learning</b></div>
+          <div style={{ color: "#FFFFFF", marginTop: "15px",fontSize: "30px" }}><>Self-paced learning</></div>
         </div>
       </div>
     </div>
