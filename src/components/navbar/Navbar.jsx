@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div className="background">
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light px-5">
         <a className="navbar-brand" href="#home">
           <img
             src={IMG}

@@ -5,25 +5,26 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div className="background">
+    <div className="background_header">
       <div className="header">
         <div className="row">
-          <div className="col-xl-8 col-sm-12 ">
+          <div className="col-md-6 col-sm-12 ">
             <img width="auto" src={IMG1} alt="" />
-            <div className="row" style={{marginRight:'25px', marginTop:'7px'}}>
-              <div className="col-9"></div>
+            <div className="row" style={{ marginTop:'25px'}}>
+              <div className="col-5"></div>
               <div className="col-1">
                 <div className='empty_div'></div>
               </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;
               <div className="col-1">
                 <div className='empty_div'></div>
-              </div>
+              </div>&nbsp;&nbsp;&nbsp;&nbsp;
               <div className="col-1">
                 <div className='empty_div'></div>
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-sm-12 " style={{paddingTop:'135px'}}>
+          <div className="col-md-6 col-sm-12 " style={{paddingTop:'135px'}}>
             <h1>
               <span style={{ color: "#FB9B43" }}>Get ready</span>{" "}
               <span style={{ color: "#FFFFFF" }}>
@@ -31,31 +32,33 @@ const Header = () => {
               </span>{" "}
               ⭐️
             </h1>
+            <br />
             <h5 style={{ color: "#FFFFFF" }}>Start with us today</h5>
+            <br />
             <button className="button_view">
-              <b>View all courses ⟶</b>
+              <b>View all courses →</b>
             </button>
           </div>
         </div>
       </div>
       <div className="row header">
-        <div className="col-4">
-          <div className="img_div " >
+        <div className="col-md-4 col-sm-12">
+          <div className="img_div py-4" >
             <img src={IMG2} alt="" />
           </div>
-          <div style={{ color: "#FFFFFF",textAlign:'center' }}>500+ happy customers</div>
+          <div style={{ color: "#FFFFFF",marginTop: "15px",fontSize: "20px" }}><b>500+ happy customers</b></div>
         </div>
-        <div className="col-4">
-          <div className="img_div">
+        <div className="col-md-4 col-sm-12">
+          <div className="img_div py-4">
             <img src={IMG2} alt="" />
           </div>
-          <div style={{ color: "#FFFFFF",textAlign:'center' }}>Learn as you go</div>
+          <div style={{ color: "#FFFFFF",marginTop: "15px" ,fontSize: "20px"}}><b>Learn as you go</b></div>
         </div>
-        <div className="col-4">
-          <div className="img_div">
+        <div className="col-md-4 col-sm-12">
+          <div className="img_div py-4">
             <img src={IMG2} alt="" />
           </div>
-          <div style={{ color: "#FFFFFF",textAlign:'center' }}>Self-paced learning</div>
+          <div style={{ color: "#FFFFFF", marginTop: "15px",fontSize: "20px" }}><b>Self-paced learning</b></div>
         </div>
       </div>
     </div>
