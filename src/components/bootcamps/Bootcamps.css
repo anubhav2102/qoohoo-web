@@ -1,5 +1,18 @@
+.bootcamps{
+    height: 80vh;
+}
 .description{
     background: #FFD7B1;
+    margin-left: 131.5px;
+    margin-right: 131.5px;
+    margin-top: 24px;
+    height: 362px;
+    align-items: center;
+    justify-content: center;
+}
+.category{
+    margin-left: 301px;
+    margin-right: 301px;
 }
 
 .button_join{
