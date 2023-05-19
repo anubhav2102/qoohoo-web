@@ -3,16 +3,19 @@
 }
 .description{
     background: #FFD7B1;
-    margin-left: 131.5px;
-    margin-right: 131.5px;
+    /* margin-left: 131.5px; */
+    margin-left: 20rem;
+    margin-right: 20rem;
     margin-top: 24px;
-    height: 362px;
+    /* height: 362px; */
+    height: 50vh;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
 }
 .category{
-    margin-left: 301px;
-    margin-right: 301px;
+    margin-left: 35rem;
+    margin-right: 20rem;
 }
 
 .button_join{
@@ -23,6 +26,14 @@
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
+    
+}
+.amet_minim{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .c1{

@@ -10,18 +10,21 @@ const Navbar = () => {
   };
   return (
     <div className="background">
-      <nav className="navbar navbar-expand-lg navbar-light px-5">
-        <a className="navbar-brand" href="#home">
-          <img
-            src={IMG}
-            width="30"
-            height="30"
-            className="d-inline-block align-top mx-2"
-            alt="Your Name"
-            style={{ borderRadius: "100%" }}
-          />
-          {" Annette Black"}
-        </a>
+      <nav className="navbar navbar-expand-lg navbar-light row ">
+        <div className="col-1"></div>
+        <div className="col-1">
+          <a className="navbar-brand" href="#home">
+            <img
+              src={IMG}
+              width="30"
+              height="30"
+              className="d-inline-block align-top mx-2"
+              alt="Your Name"
+              style={{ borderRadius: "100%" }}
+            />
+            {" Annette Black"}
+          </a>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
@@ -29,9 +32,12 @@ const Navbar = () => {
           aria-expanded={isNavOpen ? "true" : "false"}
           aria-label="Toggle navigation"
         >
-          <span className="toggle_button"><b>| | |</b></span>
+          <span className="toggle_button">
+            <b>| | |</b>
+          </span>
         </button>
-
+        <div className="col-4"></div>
+        <div className="col-4">
         <div
           className={`collapse navbar-collapse ${isNavOpen ? "show" : ""}`}
           id="navbarSupportedContent"
@@ -53,6 +59,7 @@ const Navbar = () => {
               <a className="nav-link">Login</a>
             </li>
           </ul>
+        </div>
         </div>
       </nav>
     </div>
