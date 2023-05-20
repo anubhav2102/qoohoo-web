@@ -219,8 +219,8 @@
 }
 @media only screen and (max-width: 492px) {
     .header{
-        margin-left: 125px;
-        margin-right: 125px;
+        margin-left: 75px;
+        margin-right: 55px;
         padding-top: 30px;
     }
     .img_dim{
@@ -239,11 +239,18 @@
     .headline_header{
         margin-top: 8px;
         font-size: 12px;
+        margin-left: 18px;
     }
     .background_header{
         height: 135vh;
     }
     .img_div{
         margin-top: 10px;
+    }
+    .button_view{
+        padding: 5px;
+        margin: 0px;
+        border-radius: 8px;
+        font-size: 15px;
     }
 }
