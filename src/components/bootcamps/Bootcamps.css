@@ -1,23 +1,23 @@
 .bootcamps{
-    height: 80vh;
+    height: 88vh;
 }
 .description{
     background: #FFD7B1;
-    /* margin-left: 131.5px; */
     margin-left: 20rem;
     margin-right: 20rem;
     margin-top: 24px;
-    /* height: 362px; */
     height: 50vh;
     align-items: center;
     justify-content: center;
     border-radius: 25px;
 }
 .category{
-    margin-left: 35rem;
+    margin-left: 30rem;
     margin-right: 20rem;
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 30px;
 }
-
 .button_join{
     background: #161E3C;
     color: white;
@@ -30,25 +30,213 @@
 }
 .amet_minim{
     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
 .c1{
     background: #FB9B43;
-    border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .c2,.c3{
     background: #FFD7B1;
-    border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.heading{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.para_desc{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.image{
+    height: 328px;
+    width: 423px;
+}
+@media only screen and (max-width: 1892px){
+    .image{
+        height: 328px;
+        width: 373px;
+    }
+}
+@media only screen and (max-width: 1592px){
+    .description{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        margin-top: 20px;
+        height: 60vh;
+    }
+    .image{
+        height: 328px;
+        width: 333px;
+    }
+    .bootcamps{
+        height: 108vh;
+    }
+}
+@media only screen and (max-width: 1392px){
+    .description{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 20px;
+        height: 66vh;
+    }
+    .image{
+        height: 328px;
+        width: 283px;
+    }
+    .category{
+        margin-left: 13rem;
+        margin-right: 13rem;
+        margin-top: 6rem;
+        text-align: center;
+        font-size: 30px;
+    }
+    .bootcamps{
+        height: 108vh;
+    }  
+}
+@media only screen and (max-width: 1192px){
+    .description{
+        margin-left: 8rem;
+        margin-right: 8rem;
+        margin-top: 20px;
+        height: 60vh;
+    }
+    .heading{
+        top: 40px;
+    }
+    .image{
+        height: 298px;
+        width: 233px;
+    }
+    .category{
+        margin-left: 10rem;
+        margin-right: 6rem;
+        margin-top: 4rem;
+        font-size: 25px;
+    }
+    .bootcamps{
+        height: 98vh;
+    } 
+}
+@media only screen and (max-width: 992px){
+    .description{
+        margin-left: 12rem;
+        margin-right: 12rem;
+        margin-top: 20px;
+        height: 90vh;
+    }
+    .image{
+        height: 278px;
+        width: 283px;
+    }
+    .bootcamps{
+        height: 128vh;
+    }
+    .para_desc{
+        margin-top: 18px;
+        font-size: 20px;
+    }
+    .category{
+        margin-left: 15rem;
+        margin-right: 7rem;
+        margin-top: 3rem;
+        font-size: 22px;
+    }
+    .heading{
+        top: 30px;
+    }
+}
+@media only screen and (max-width: 792px){
+    .description{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 20px;
+        height: 90vh;
+    }
+    .image{
+        height: 248px;
+        width: 233px;
+    }
+    .bootcamps{
+        height: 138vh;
+    }
+    .para_desc{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    .category{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        margin-top: 2rem;
+        font-size: 20px;
+    }
+    .heading{
+        top: 20px;
+    }
+}
+@media only screen and (max-width: 592px){
+    .description{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 15px;
+        height: 90vh;
+    }
+    .image{
+        height: 218px;
+        width: 203px;
+    }
+    .bootcamps{
+        height: 138vh;
+    }
+    .para_desc{
+        margin-top: 12px;
+        font-size: 18px;
+    }
+    .category{
+        margin-left: 5rem;
+        margin-right: 8rem;
+        margin-top: 1rem;
+        font-size: 17px;
+    }
+    .heading{
+        top: 15px;
+    }
+}
+@media only screen and (max-width: 392px){
+    .description{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 10px;
+        height: 90vh;
+    }
+    .image{
+        height: 158px;
+        width: 173px;
+    }
+    .bootcamps{
+        height: 138vh;
+    }
+    .para_desc{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .category{
+        margin-left: 1rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+        font-size: 15px;
+    }
 }

@@ -4,12 +4,13 @@
 .box1,.box2,.box3{
     background: #FFD7B1;
     border-radius: 8px;
+    width: 18rem;
 }
-
 .frame_gap{
     text-align: center;
+    position: relative;
+    top: 100px;
 }
-
 .button_join_checkout{
     background: #161E3C;
     color: white;
@@ -17,14 +18,154 @@
     padding-left: 75px;
     padding-right: 55px;
     padding-top: 5px;
-    padding-bottom: 5px;
-    
+    padding-bottom: 5px;  
 }
 .card_boxes{
     margin-left: 28rem;
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 .card_image{
     margin-top: 15px;
     text-align: center;
+}
+@media only screen and (max-width: 1592px){
+    .frame_gap{
+        top: 80px;
+    }
+    .card_boxes{
+        margin-left: 14rem;
+        margin-top: 6rem;
+    }
+    .box1,.box2,.box3{
+        width: 16rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 65px;
+        padding-right: 45px;
+        padding-top: 5px;
+        padding-bottom: 5px;  
+    }
+}
+@media only screen and (max-width: 1392px){
+    .frame_gap{
+        top: 70px;
+    }
+    .card_boxes{
+        margin-left: 11rem;
+        margin-top: 5rem;
+    }
+    .box1,.box2,.box3{
+        width: 14rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 45px;
+        padding-right: 35px;
+        padding-top: 5px;
+        padding-bottom: 5px;   
+    }
+}
+@media only screen and (max-width: 1192px){
+    .frame_gap{
+        top: 60px;
+    }
+    .card_boxes{
+        margin-left: 8rem;
+        margin-top: 4rem;
+    }
+    .box1,.box2,.box3{
+        width: 14rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 35px;
+        padding-right: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;   
+    }
+}
+@media only screen and (max-width: 992px){
+    .frame_gap{
+        top: 50px;
+    }
+    .box1,.box2,.box3{
+        width: 14rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;   
+    }
+    .checkout{
+        height: 110vh;
+    }
+}
+@media only screen and (max-width: 792px){
+    .frame_gap{
+        top: 40px;
+    }
+    .card_boxes{
+        margin-left: 5rem;
+        margin-top: 3rem;
+    }
+    .box1,.box2,.box3{
+        width: 14rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 25px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;   
+    }
+    .checkout{
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 592px){
+    .frame_gap{
+        top: 30px;
+    }
+    .card_boxes{
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    .box1,.box2,.box3{
+        width: 14rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;   
+    }
+    .checkout{
+        height: 150vh;
+    }
+}
+@media only screen and (max-width: 392px){
+    .frame_gap{
+        top: 20px;
+    }
+    .card_boxes{
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .box1,.box2,.box3{
+        width:14rem;
+    }
+    .button_join_checkout{
+        border-radius: 7px;
+        padding-left: 15px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;   
+    }
+    .checkout{
+        height: 170vh;
+    }
 }

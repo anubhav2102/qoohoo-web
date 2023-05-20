@@ -1,13 +1,10 @@
 .ml-auto {
     margin-left: auto !important;
   }
-
-  a,.toggle_button{
+a,.toggle_button{
     color: white !important;
   }
-
-  .login_div{
+.login_div{
     border: 2px solid white;
     border-radius: 20px;
-    max-width: 25%;
   }

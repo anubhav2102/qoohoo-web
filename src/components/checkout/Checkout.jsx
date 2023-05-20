@@ -13,25 +13,49 @@ const Checkout = () => {
         </h1>
       </div>
       <div className="row card_boxes">
-        <div class="card box1 col-md-4 col-sm-12 mx-4" style={{width: "18rem"}}>
-          <img class="card-img-top card_image " src={IMG1} alt="Card image cap" />
+        <div class="card box1  col-md-4 col-sm-12 mx-4 my-2">
+          <img
+            class="card-img-top card_image "
+            src={IMG1}
+            alt="Card image cap"
+          />
           <div class="card-body">
-            <h5 class="card-title"><b>Toledo</b></h5>
-            <button className="button_join_checkout"><b>Join Now →</b></button>
+            <h5 class="card-title">
+              <b>Toledo</b>
+            </h5>
+            <button className="button_join_checkout">
+              <b>Join Now →</b>
+            </button>
           </div>
         </div>
-        <div class="card box2 col-md-4 col-sm-12 mx-4" style={{width: "18rem"}}>
-          <img class="card-img-top card_image" src={IMG2} alt="Card image cap" />
+        <div class="card box2  col-md-4 col-sm-12 mx-4 my-2">
+          <img
+            class="card-img-top card_image"
+            src={IMG2}
+            alt="Card image cap"
+          />
           <div class="card-body">
-            <h5 class="card-title"><b>Pembroke Pines</b></h5>
-            <button className="button_join_checkout"><b>Join Now →</b></button>
+            <h5 class="card-title">
+              <b>Pembroke Pines</b>
+            </h5>
+            <button className="button_join_checkout">
+              <b>Join Now →</b>
+            </button>
           </div>
         </div>
-        <div class="card box3 col-md-4 col-sm-12 mx-4" style={{width: "18rem"}}>
-          <img class="card-img-top card_image " src={IMG3} alt="Card image cap" />
+        <div class="card box3 col-md-4 col-sm-12 mx-4 my-2">
+          <img
+            class="card-img-top card_image "
+            src={IMG3}
+            alt="Card image cap"
+          />
           <div class="card-body">
-            <h5 class="card-title"><b>Naperville</b></h5>
-            <button className="button_join_checkout"><b>Join Now →</b></button>
+            <h5 class="card-title">
+              <b>Naperville</b>
+            </h5>
+            <button className="button_join_checkout">
+              <b>Join Now →</b>
+            </button>
           </div>
         </div>
       </div>

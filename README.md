@@ -1,3 +1,7 @@
+Hi, This is Anubhav Ladha.
+I have used React with bootstrap to develop this website.
+The website is hosted on netlify.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
